@@ -1,0 +1,69 @@
+
+$(function(){
+	/*二级菜单*/
+	$(".commodity").hover(function(){
+		$(this).find(".commodity_wrap").show();
+		
+	},function(){
+		$(this).find(".commodity_wrap").hide();
+	
+	})	
+	
+	/*轮播*/
+	var myplay=$(".play");
+	var myleft=$(".play .ind_left")
+	var myright=$(".play .ind_right");
+	var myimg=$(".play .img_wrap div")
+	var mycont=$(".play .cont_box li");
+	var nowIndex=0;
+	var myzidong=setInterval(zidong,3000);
+	nowimg=$(".img_wrap div").eq(0);
+	
+	myplay.hover(function(){
+		clearInterval(myzidong);
+		myleft.show();
+		myright.show();
+	},function(){
+		myzidong=setInterval(zidong,3000);
+		myleft.hide();
+		myright.hide();
+	})
+	/*上一页*/
+	myleft.click(function(){
+		nowIndex--
+		if(nowIndex<0){
+			nowIndex=myimg.length-1;
+	  	}
+			bannerAnimate();
+	})
+	/*下一页点击*/
+	myright.click(function(){
+		nowIndex++;
+		if(nowIndex>myimg.length-1){
+			nowIndex=0;
+		}
+		bannerAnimate();
+	})
+	
+	mycont.hover(function(){
+		nowIndex=$(this).index();
+		bannerAnimate();
+	})
+	
+	function zidong(){
+		nowIndex++;
+		if(nowIndex>myimg.length-1){
+			nowIndex=0;
+		}
+		bannerAnimate();
+	}
+	
+	function bannerAnimate(){
+		mycont.removeClass("cur");
+		mycont.eq(nowIndex).addClass("cur");
+		myimg.hide();
+		myimg.eq(nowIndex).show();
+	}
+	
+	
+})	

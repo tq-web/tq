@@ -1,0 +1,269 @@
+@charset "utf-8";
+/*顶部-----------------------*/
+#head_wrap{
+	min-width: 100%;
+	background: #f8f8f8;
+}
+.head{
+	width: 1000px;
+	height: 35px;
+	margin: 0 auto;
+}
+.head_left{
+	height: 35px;
+	float: left;
+	padding-left: 150px;
+	}
+.head_right{
+	height: 35px;
+	float: right;
+	padding-right: 50px;
+}
+.head_right a{
+	color: #666666;
+	float:left;
+	cursor: pointer;
+	line-height: 35px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.head_left a{
+	color: #000000;
+	cursor: pointer;
+}
+.head_left a,.head_left span{
+	line-height: 35px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #000000;
+	
+}
+.head_left a:hover,.head_right a:hover{
+	color: red;	
+}
+/*logo--------------------------*/
+#logo{
+	width: 100%;
+}
+.logo{
+	width: 1000px ;
+	height: 102px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.logo_left{
+	width: 200px;
+	height: 102px;
+	float: left;
+}
+.logo_left img{
+	margin-top: 23px;
+}
+.logo_hunt{
+	width: 470px;
+	height: 102px;
+	float: left;
+	margin-left: 100px;
+}
+.logo_img{
+	width: 170px;
+	height: 102px;
+	float: left;
+}
+.logo_img img{
+	margin: 25px 0 0 60px;
+	
+}
+.logo_hunt .import{
+	width: 490px;
+	height: 40px;
+	margin-top: 30px;
+
+}
+.logo_hunt .tex{
+	width: 390px;
+	height: 30px;
+	border: 3px solid #689835;
+	float: left;
+	}
+.logo_hunt .sosu{
+	width: 73px;
+	height: 36px;
+	background: url(../img/sosu.png);
+	float: left;
+	border: 1px solid #689835;
+	cursor: pointer;
+}
+.logo_hunt .details{
+	clear: left;
+	margin-left: 20px;
+}
+.logo_hunt .details a{
+	float: left;
+	color: #666666;
+	font-size: 18px;
+	margin-right: 10px;
+}
+/*登录注册------*/
+#enter_wrap{
+	width: 100%;
+}
+.enter{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 2px solid #e1e1e1;
+}
+.enter .register{
+	width: 450px;
+	height: 400px;
+	background: #f7f7f7;
+	float: left;
+}
+.register .register_title{
+	width: 450px;
+	height: 45px;
+	border-bottom: 3px solid #cccccc;
+}
+.register_title h2{
+	width: 80px;
+	height: 45px;
+	border-bottom: 3px solid #326400;
+	color: #326400;
+	line-height: 45px;
+	text-align: center;
+}
+.register_text{
+	width: 400px;
+	height: 325px;
+	margin: 0 auto;
+	position: relative;
+}
+.register_text .tishi{
+	font-size: 16px;
+}
+.register_text .butt{
+	width: 235px;
+	height: 28px;
+	border: 1px solid #cccccc;
+	margin-top: 20px;
+}
+ .butt p{
+ 	width: 31px;
+ 	height: 28px;
+ 	float: left;
+ }
+.butt>input{
+	float: left;
+	width: 204px;
+	height: 28px;
+	border: 0;
+}
+.register_text>a{
+	position: absolute;
+	left: 250px;
+	top: 118px;
+	color: #0b72a4;
+}
+.register_text .anniu{
+	width: 125px;
+	height: 35px;
+	background: url(../myimg/anniu..png) no-repeat;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.register_text .anniu2{
+	width: 155px;
+	height: 35px;
+	background: url(../myimg/aniul.png) no-repeat;
+	border: none;
+	cursor: pointer;
+	margin: 20px 0 0 20px;
+}
+.register_text .lianjie{
+	width: 270px;
+	height: 70px;
+	margin-top: 20px;
+}
+.lianjie>a img{
+	margin-top:20px;
+}
+
+.enter .enroll{
+	width: 550px;
+	height: 400px;
+	background: #fff;
+	float: left;
+}
+.register_title2 h2{
+	width: 155px;
+	height: 45px;
+	border-bottom: 3px solid #326400;
+	color: #326400;
+	line-height: 45px;
+	text-align: center;
+}
+.register_text2{
+	width: 440px;
+	height: 325px;
+	margin-left: 15px;
+	position: relative;
+}
+.register_text2 .tishi2{
+	font-size: 15px;
+}
+.register_text2 .chuang{
+	width: 340px;
+	height: 30px;
+	font-size: 18px;
+}
+/*底部-------*/
+#copyright{
+	width: 100%;
+}
+.copyright_wrap{
+	width: 1000px;
+	height: 250px;
+	background:#ffffff;
+	border-top: 1px solid darkgray;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.copyright_zhinan{
+	width: 200px;
+	height: 200px;
+	margin-top: 25px;
+	margin-left: 40px;
+	float: left;
+}
+.copyright_xinshou{
+	width: 200px;
+	height: 70px;
+	text-align: center;
+}
+.copyright_zhinan img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.copyright_zhinan span{
+	font-size: 20px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.copyright_zhinan p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #333333;
+}
+.site{
+	min-width: 1000px;
+	text-align: center;
+	margin-top:-20px ;
+}
+.copyright_zhinan p:hover{
+	color: red;
+}

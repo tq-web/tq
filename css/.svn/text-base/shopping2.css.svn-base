@@ -1,0 +1,194 @@
+#head_wrap{
+	min-width: 100%;
+	background: #f8f8f8;
+}
+.head{
+	width: 1000px;
+	height: 35px;
+	margin: 0 auto;
+}
+.head_left{
+	height: 35px;
+	float: left;
+	padding-left: 150px;
+	}
+.head_right{
+	
+	height: 35px;
+	float: right;
+	padding-right: 50px;
+}
+.head_right a{
+	color: #666666;
+	float:left;
+	cursor: pointer;
+	line-height: 35px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.head_left a{
+	color: #000000;
+	cursor: pointer;
+}
+.head_left a,.head_left span{
+	line-height: 35px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #000000;
+	
+}
+.head_left a:hover,.head_right a:hover{
+	color: red;	
+}
+/*logo----*/
+#logo_wrap{
+	width: 100%;
+}
+.logo{
+	width: 1000px;
+	height: 395px;
+	margin: 0 auto;
+}
+.logo>a>img{
+	width: 220px;
+	height: 90px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.logo>ul{
+	width: 455px;
+	height: 40px;
+	background: url(../myimg/beij.png);
+	float: left;
+	margin: 35px 0 0 210px;
+}
+.logo>ul li{
+	width: 127px;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	line-height:40px;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+.logo h3{
+	clear: left;
+	font-size: 18px;
+	padding-top: 20px;
+}
+.logo h3 span{
+	color: #e70000;
+	font-weight: bold;
+	font-size: 18px;
+}
+.logo>p{
+	font-size: 16px;
+	margin-top: 30px;
+}
+#details_wrap{
+	width: 100%;
+}
+.details{
+	width: 1000px;
+	height: 500px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	border: 1px solid #bdbdbd;
+	margin-top: 10px;
+}
+.details>p{
+	margin: 10px 0 0 10px;
+}
+.details ul{
+	width: 980px;
+	height: 455px;
+	border: 1px solid #e0dfdf;
+	margin: 0 auto;
+	background: #fff;
+}
+.details ul li{
+	float: left;
+}
+.details ul img{
+	width: 60px;
+	height: 55px;
+}
+.details ul input{
+	width: 20px;
+	text-align: center;
+}
+.details ul a{
+	color: #000000;
+	font-weight: bold;
+}
+.details ul a:hover{
+	color: red;
+}
+.details .trade01{
+	width: 60px;
+	height: 55px;
+	border: 1px solid #e0dfdf;
+}
+.details .trade02{
+	width: 770px;
+	height: 55px;
+	border: 1px solid #e0dfdf;
+	line-height: 55px;
+	text-align: center;
+}
+.details .trade03{
+	width: 144px;
+	height: 55px;
+	border: 1px solid #e0dfdf;
+	line-height: 55px;
+	text-align: center;
+}
+
+#copyright{
+	width: 100%;
+}
+.copyright_wrap{
+	width: 1000px;
+	height: 250px;
+	background:#ffffff;
+	border-top: 1px solid darkgray;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.copyright_zhinan{
+	width: 200px;
+	height: 200px;
+	margin-top: 25px;
+	margin-left: 50px;
+	float: left;
+}
+.copyright_xinshou{
+	width: 200px;
+	height: 70px;
+	text-align: center;
+}
+.copyright_zhinan img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.copyright_zhinan span{
+	font-size: 20px;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.copyright_zhinan p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #333333;
+}
+.site{
+	min-width: 1000px;
+	text-align: center;
+	margin-top:-20px ;
+}
+.copyright_zhinan p:hover{
+	color: red;
+}

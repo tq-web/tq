@@ -1,0 +1,288 @@
+@charset "utf-8";
+/*顶部-----------------------*/
+#head_wrap{
+	width: 1370px;
+	height: 35px;
+	background: #f8f8f8;
+}
+.head_left{
+	width: 400px;
+	height: 35px;
+	float: left;
+	margin-left: 200px;
+	}
+.head_right{
+	width:700px;
+	height: 35px;
+	float: right;
+}
+.head_right a{
+	color: #666666;
+	float:left;
+
+	cursor: pointer;
+	line-height: 35px;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.head_left a{
+	color: #000000;
+	cursor: pointer;
+}
+.head_left a,span{
+	line-height: 35px;
+	margin-left: 20px;
+	font-size: 12px;
+	color: #000000;
+	
+}
+.head_left a:hover, .head_right a:hover{
+	color: red;	
+}
+
+/*logo--------------------------*/
+.logo_wrap{
+	width: 1370px ;
+	height: 102px;
+	background: #ffffff;
+	border-bottom: 1px solid #689835;
+}
+.logo_left{
+	width: 410px;
+	height: 102px;
+	float: left;
+}
+.logo_left img{
+	padding-left: 190px;
+	margin-top: 23px;
+}
+.logo_hunt{
+	width: 566px;
+	height: 102px;
+	float: left;
+}
+.logo_img{
+	width: 255px;
+	height: 102px;
+	float: left;
+}
+.logo_img img{
+	margin-top: 25px;
+}
+.logo_right{
+	width: 135px;
+	height: 102px;
+	float: right;
+}
+.logo_hunt .import{
+	width: 490px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.logo_hunt .tex{
+	width: 390px;
+	height: 30px;
+	border: 3px solid #689835;
+	float: left;
+	}
+.logo_hunt .sosu{
+	width: 73px;
+	height: 36px;
+	background: url(../img/sosu.png);
+	float: left;
+	border: 1px solid #689835;
+	cursor: pointer;
+}
+.logo_hunt .details{
+	clear: left;
+	margin-left: 20px;
+}
+.logo_hunt .details a{
+	float: left;
+	color: #666666;
+	font-size: 18px;
+	margin-right: 10px;
+}
+.logo_right img{
+	float: right;
+	margin-top: 1px;
+	margin-right: 30px;
+}
+.logo_right span{
+	color: #a6a6a6;
+	float: left;
+	font-size: 15px;
+	margin-left: 10px;	
+}
+/*内容-------------------------------------*/
+.conten_wrap{
+	width: 1370px;
+	height: 415px;
+	background: #ffffff;
+	border-top: 2px solid #689835;
+}
+/*二级菜单-------*/
+.menu{
+	width: 175px;
+	height:415px;
+	background: #689835;
+	margin-left: 190px;
+	float: left;
+	position: relative;
+}
+.menu .commodity{
+	width: 175px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.commodity .commodity_wrap{
+	width: 650px;
+	height: 415px;
+	background: #ffffff;
+	position: absolute;
+	left: 172px;
+	top: 0px;
+	z-index: 999;
+	float: left;
+	margin-left: 3px;
+}
+ .commodity .tow_menu{
+    width: 232px;
+	height: 415px;
+	border-right: 1px solid #dddddd;
+	margin-left: 25px;
+}
+ .tow_menu .bar{
+	width: 230px;
+	margin-top: 15px;
+}
+
+ .tow_menu .bar a{
+	font-size: 12px;
+	color: #000000;
+}
+
+.but{
+	width: 25px;
+	height: 26px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.menu .commodity>a{
+	line-height: 40px;
+	color: #FFFFFF;
+}
+.menu .commodity .gt{
+	float: right;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-right: 10px;
+}
+.menu .commodity:hover{
+	padding-left: 3px;
+	background: #356107;
+}
+.commodity_wrap .tow_img{
+	width: 172px;
+	height: 415px;
+	position: absolute;
+	left: 259px;
+	top: 0px;
+	border-right: 1px solid #dddddd;
+}
+.tow_img>img{
+	width: 172px;
+	height: 415px;
+}
+.commodity_wrap .img_wan{
+	width: 215px;
+	height: 415px;
+}
+.img_wan .img_tu{
+	width: 215px;
+	height: 205px;
+	border-bottom: 1px solid #A9A9A9;
+	position: absolute;
+	left: 432px;
+	top: 0;
+}
+.img_wan .img_sruo{
+	width: 215px;
+	height: 205px;
+	position: absolute;
+	left: 432px;
+	top: 216px;
+}
+
+/*轮播图--------------------*/
+.conten_wrap .play{
+	width: 826px;
+	height: 415px;
+	float: left;
+	position: relative;
+}
+.play .ind_left{
+	width: 52px;
+	height: 52px;
+	background: url(../img/left.png);
+	position: absolute;
+	left: 0px;
+	top: 165px;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	z-index: 99;
+	display: none;
+	
+}
+.play .ind_right{
+	width: 52px;
+	height: 52px;
+	background: url(../img/right.png);
+	position: absolute;
+	left: 775px;
+	top: 165px;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	display: none;
+}
+.play .img_wrap{
+	width: 826px;
+	height: 415px;
+	overflow: ;
+}
+
+.play .img_wrap>div{
+	width: 826px;
+	height: 415px;
+	position: absolute;
+	top: 0px;left: 0px;
+}
+.play .cont_box{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;left: 338px;
+}
+
+.cont_box li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 15px;
+	border-radius: 10px;
+	background: #FFFFFF;
+}
+.cont_box .cur{
+	background: #878a85;
+}
+

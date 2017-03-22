@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>谭氏水果店</title>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ending.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/move.js"></script>
+	</head>
+	<body>
+		<div id="ending_wrap">
+			<div class="ending_sketch">
+				<div class="ending_block">
+					<h2 class="caption">花茶</h2>
+					<div class="product">
+						<p><a href="#">雪菊</a></p>
+						<p><a href="#">藏红花</a></p>
+						<p><a href="#">玫瑰花茶</a></p>
+						<p><a href="#">辣木茶</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">干果/鲜果</h2>
+					<div class="product">
+						<p><a href="#">和田大枣</a></p>
+						<p><a href="#">洛浦灰枣</a></p>
+						<p><a href="#">小圆枣</a></p>
+						<p><a href="#">杏干</a></p>
+						<p><a href="#">无花果</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">蜂蜜</h2>
+					<div class="product">
+						<p><a href="#">向日葵蜂蜜</a></p>
+						<p><a href="#">薰衣蜂蜜草</a></p>
+						<p><a href="#">野生沙枣纯蜂蜜</a></p>
+						<p><a href="#">新疆蜂蜜</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">坚果</h2>
+					<div class="product">
+						<p><a href="#">核桃</a></p>
+						<p><a href="#">巴旦木</a></p>
+						<p><a href="#">开心果</a></p>
+						<p><a href="#">炭烤腰果</a></p>
+						<p><a href="#">榛子</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">食材</h2>
+					<div class="product">
+						<p><a href="#">菌菇</a></p>
+						<p><a href="#">莲子</a></p>
+						<p><a href="#">生腰果</a></p>
+						<p><a href="#">生鲜家禽</a></p>
+						<p><a href="#">鹰嘴豆</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">清真食品</h2>
+					<div class="product">
+						<p><a href="#">酸辣粉</a></p>
+						<p><a href="#">熟牛肉</a></p>
+						<p><a href="#">鸡腿</a></p>
+						<p><a href="#">干炸鱼</a></p>
+						<p><a href="#">烤鸽子肉</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">茶叶</h2>
+					<div class="product">
+						<p><a href="#">普洱茶</a></p>
+						<p><a href="#">大红袍</a></p>
+						<p><a href="#">金骏眉</a></p>
+						<p><a href="#">铁观音</a></p>
+						<p><a href="#">福鼎白茶</a></p>	
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">叙利亚皂</h2>
+					<div class="product">
+						<p><a href="#">叙利亚古皂</a></p>
+						<p><a href="#">叙利亚精油皂</a></p>
+					</div>
+				</div>
+				<div class="ending_block">
+					<h2 class="caption">礼盒</h2>
+					<div class="product">
+						<p><a href="#">自选礼盒</a></p>
+						<p><a href="#">推荐礼盒</a></p>
+					</div>
+				</div>
+				<div class="ending_block1">
+					<h2 class="caption">我们的故事</h2>
+					<div class="product">
+						<p><a href="#">老榕卖枣</a></p>
+						<p><a href="#">沙漠深处有好枣</a></p>
+						<p><a href="#">独一无二的冰糖心苹果</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			<div class="copyright_wrap">
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/zhinan.png" /><span>新手指南</span>
+					</div>
+					<a href="#"><p>注册新用户</p></a>
+					<a href="#"><p>网站订购流程</p></a>
+					<a href="#"><p>不用注册也可直接购买</p></a>
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/fukuan.png" /><span>付款方式</span>
+					</div>
+					<a href="#"><p>信用卡直接支付</p></a>
+					<a href="#"><p>支付宝、快钱、财付通</p></a>
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/peisong.png" /><span>配送方式</span>
+					</div>
+					<a href="#"><p>货到付款城市及配送时间</p></a>
+					<a href="#"><p>款到快递城市及配送时间</p></a>	
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/bangzhu.png" /><span>帮助中心 </span>
+					</div>
+					<a href="#"><p>常见热点问题</p></a>
+					<a href="#"><p>联系我们</p></a>
+					<a href="#"><p>投诉与建议</p></a>
+				</div>
+			</div>
+			<div class="site">
+				<span>CopyRight © 1995-2017 六六八八电子商务网 版权所有 京ICP备13035173号 京公网安备11010502024535 </span>
+			</div>
+		</div>
+		
+	</body>
+</html>

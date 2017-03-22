@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<div id="head_wrap">
+			<div class="head">
+				<div class="head_left">
+					<span>您好，欢迎光临六六八八商城。</span>
+					<a href="#">[登录]</a>
+					<a href="#">[注册]</a>	
+				</div>
+				<div class="head_right">
+					<a href="#">我的账户</a>
+					<a href="#">无注册用户查订单</a>
+					<a href="#">我的收藏</a>
+					<a href="#">购物车</a>
+					<a href="#">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<div id="logo_wrap">
+			<div class="logo">
+				<a href="#"><img src="myimg/logo.jpg" /></a>
+				<ul>
+					<li>1.查看购物车</li>
+					<li>2.填写核对订单</li>
+					<li>3.提交成功</li>
+				</ul>
+				<h3>已将<span>0</span>件商品加入购物车</h3>
+				<p>您的购物车还是空的，<a href="#" style="color: #0000ff;">立即购买</a></p>
+			</div>
+		</div>
+		<!--中间------>
+		<div id="details_wrap">
+			<div class="details">
+				<p style="color: red;">每单满80元就免邮费。欢迎继续挑选下列第二件特惠产品：</p>
+				<ul>
+					<li class="trade01"><img src="myimg/e10000.jpg"/></li>
+					<li class="trade02">预购7月农产万元，马上送600E元</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c1.jpg"/></li>
+					<li class="trade02">以特价85元购买昆仑雪菊大罐80克（96折，原价100元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c2.jpg"/></li>
+					<li class="trade02">以特价191元购买野生黑枸杞（120g，88折，原价218元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c3.jpg"/></li>
+					<li class="trade02">以特价175元购买阿勒颇钻石级限量版古皂210±10g（窖藏五年，8折，原价218元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c4.jpg"/></li>
+					<li class="trade02">以特价226元购买和田大枣-混级散装2公斤（箱）（原价255元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c5.jpg"/></li>
+					<li class="trade02">以特价156元购买特级薄皮核桃（2公斤散装）-坚果（原价159元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c6.jpg"/></li>
+					<li class="trade02">以特价89元购买野生沙枣纯蜜500g（9折，原价99元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+					<li class="trade01"><img src="myimg/c7.jpg"/></li>
+					<li class="trade02">以特价295元购买有机大米礼盒（1kg*6袋，特价每斤约24.5元）</li>
+					<li class="trade03">数量:<input type="text" value="1"/><a href="#">购买</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--底部-->
+			<div id="copyright">
+				<div class="copyright_wrap">
+					<div class="copyright_zhinan">
+						<div class="copyright_xinshou">
+							<img src="img/zhinan.png" /><span>新手指南</span>
+						</div>
+						<a href="#"><p>注册新用户</p></a>
+						<a href="#"><p>网站订购流程</p></a>
+						<a href="#"><p>不用注册也可直接购买</p></a>
+					</div>
+					<div class="copyright_zhinan">
+						<div class="copyright_xinshou">
+							<img src="img/fukuan.png" /><span>付款方式</span>
+						</div>
+						<a href="#"><p>信用卡直接支付</p></a>
+						<a href="#"><p>支付宝、快钱、财付通</p></a>
+					</div>
+					<div class="copyright_zhinan">
+						<div class="copyright_xinshou">
+							<img src="img/peisong.png" /><span>配送方式</span>
+						</div>
+						<a href="#"><p>货到付款城市及配送时间</p></a>
+						<a href="#"><p>款到快递城市及配送时间</p></a>	
+					</div>
+					<div class="copyright_zhinan">
+						<div class="copyright_xinshou">
+							<img src="img/bangzhu.png" /><span>帮助中心 </span>
+						</div>
+						<a href="#"><p>常见热点问题</p></a>
+						<a href="#"><p>联系我们</p></a>
+						<a href="#"><p>投诉与建议</p></a>
+					</div>
+				</div>
+				<div class="site">
+					<span>CopyRight © 1995-2017 六六八八电子商务网 版权所有 京ICP备13035173号 京公网安备11010502024535 </span>
+				</div>
+			</div>
+		
+	</body>
+</html>

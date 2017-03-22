@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录注册</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!--顶部-->
+		<div id="head_wrap">
+			<div class="head">
+				<div class="head_left">
+					<span>您好，欢迎光临六六八八商城。</span>
+					<a href="#">[登录]</a>
+					<a href="#">[注册]</a>	
+				</div>
+				<div class="head_right">
+					<a href="#">我的账户</a>
+					<a href="#">无注册用户查订单</a>
+					<a href="#">我的收藏</a>
+					<a href="#">购物车</a>
+					<a href="#">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<!--logo-->
+		<div id="logo_wrap">
+			<div class="logo">
+				<div class="logo_left">
+					<img src="img/logo.jpg"/>
+				</div>
+				<div class="logo_hunt">
+					<div class="import">
+						<input class="tex" type="text" />
+						<input class="sosu" type="button" />
+					</div>
+					<div class="details">
+						<a href="#">进店必败</a>
+						<a href="#">今日特价</a>
+						<a href="#">应季鲜果</a>
+						<a href="#">安全食材</a>
+					</div>
+				</div>
+				<div class="logo_img">
+					<a href="#"><img src="img/CultureMall.jpg"/></a>
+				</div>
+			</div>
+		</div>
+		<!--登录注册界面----------------->
+		<div id="enter_wrap">
+			<div class="enter">
+				<div class="register">
+					<div class="register_title">
+						<h2>登录</h2>
+						<div class="register_text">
+							<p class="tishi">如果您在本站已拥有帐号，请使用已有的帐号信息直接进行登录即可</p>
+							<div class="butt">
+								<p><img src="myimg/denglu.png"/></p>
+								<input type="text" placeholder="手机/邮箱" />
+							</div>
+							<div class="butt">
+								<p><img src="myimg/mima.png"/></p>
+								<input type="password" placeholder="请输入密码" />
+							</div>
+							<a href="#">忘记密码？</a>
+							<input type="button" class="anniu"></input>
+							<input type="button" class="anniu2"></input>
+							<div class="lianjie">
+								<span>您可以用合作伙伴登录:</span>
+								<a href="#"><img src="myimg/WEIBO.png"/></a>
+								<a href="#"><img src="myimg/zhifubao.png"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="enroll">
+					
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="copyright">
+			<div class="copyright_wrap">
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/zhinan.png" /><span>新手指南</span>
+					</div>
+					<a href="#"><p>注册新用户</p></a>
+					<a href="#"><p>网站订购流程</p></a>
+					<a href="#"><p>不用注册也可直接购买</p></a>
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/fukuan.png" /><span>付款方式</span>
+					</div>
+					<a href="#"><p>信用卡直接支付</p></a>
+					<a href="#"><p>支付宝、快钱、财付通</p></a>
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/peisong.png" /><span>配送方式</span>
+					</div>
+					<a href="#"><p>货到付款城市及配送时间</p></a>
+					<a href="#"><p>款到快递城市及配送时间</p></a>	
+				</div>
+				<div class="copyright_zhinan">
+					<div class="copyright_xinshou">
+						<img src="img/bangzhu.png" /><span>帮助中心 </span>
+					</div>
+					<a href="#"><p>常见热点问题</p></a>
+					<a href="#"><p>联系我们</p></a>
+					<a href="#"><p>投诉与建议</p></a>
+				</div>
+			</div>
+			<div class="site">
+				<span>CopyRight © 1995-2017 六六八八电子商务网 版权所有 京ICP备13035173号 京公网安备11010502024535 </span>
+			</div>
+		</div>
+	</body>
+</html>
